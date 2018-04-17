@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/04/2015, 8:55:46 PM
+    Author     : nicodemo
+*/
+@charset "UTF-8";
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+body {
+    width: 600px;
+    background-color: white;
+    color: black;
+    font-family: "Special elite", "Arial", sans-serif;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    width: 600px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 1em;
+}
+nav {
+    border-bottom: 1px solid grey;
+    padding-top: 0.5em;
+}
+nav li{
+    display:inline;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+footer {
+    border-top: 1px solid grey;
+    clear: both;
+    padding: 1em;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 1em;
+}
+
+a:link, a:visited{
+    
+    color: #CC0033;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #0066CC;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+ul li{
+    padding-bottom: 1em;
+}
